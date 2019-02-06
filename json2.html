@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+	let meetup = {
+  title: "Conference",
+  room: {
+    number: 23,
+    participants: ["john", "ann"]
+  }
+};
+
+//document.write( JSON.stringify(meetup.room.participants[0]) );
+document.write( JSON.stringify(meetup.title) );
+//room.occupiedBy = meetup; // room references meetup
+
+//document.write( JSON.stringify(meetup, ['title', 'participants']) );
+// {"title":"Conference","participants":[{},{}]}
+
+</script>
+</body>
+</html>
